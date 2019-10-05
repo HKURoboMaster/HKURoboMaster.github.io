@@ -1,0 +1,84 @@
+body
+{
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h3
+{
+    font-weight: 600;
+    color:black;
+}
+.text p
+{
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+}
+#logo
+{
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 50pt;
+}
+#header
+{
+    background-color:lightblue;
+}
+.cross-1
+{
+    width: 100%;
+    height: 60;
+    text-align: center;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    left: 0pt;
+}
+.cross-1 h1
+{
+    font-size: 10pt;
+    font-weight: 700;
+    color: darkgray;
+}
+.cross-1 h2
+{
+    font-size: 8pt;
+    font-weight: 500;
+    color: gray;
+}
+.col-1 img
+{
+    margin-left: 0pt;
+    width: 37%;
+    max-height: 200pt;
+    max-width: 200pt;
+    float: left;
+    display:inline-block;
+}
+
+.cross-3
+{
+    margin-top:5%;
+    display:block;
+    max-width: 700pt;
+}
+.col-3
+{
+    display: inline-block;
+    width:27%;
+    height:40pt;
+    text-align: center;
+}
+.col-3 a
+{
+    color: black;
+    font-size: 9pt;
+    font-weight: 650;
+    text-decoration: none;
+}
+.col-3 a:hover
+{
+    color:blue;
+    text-decoration: underline;
+}
