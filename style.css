@@ -62,12 +62,13 @@ body
     margin-top:5%;
     display:block;
     max-width: 700pt;
+    margin-bottom: 1pt;
+    margin-top: 2pt;
 }
 .col-3
 {
     display: inline-block;
     width:27%;
-    height:40pt;
     text-align: center;
 }
 .col-3 a
@@ -133,9 +134,10 @@ body
     text-align: center;
     font-size:17pt;
     font-weight: 600;
+    margin-bottom: 1pt;
     color: darkblue;
 }
-#resoures p
+#resources p
 {
     text-align: center;
     margin-top:3pt;
@@ -160,6 +162,7 @@ body
     color: gray;
     font-size: 10pt;
 }
+
 #brief_title a
 {
     text-decoration: none;
@@ -171,5 +174,49 @@ body
 #brief_title
 {
     display:inline-block;
-    margin-left:20%;
+    margin-left:35%;
+}
+
+@media only screen and (max-width: 580px)
+{
+    [class*="cross-"]
+    {
+        width: 95%;
+        display: block;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-left: 5pt;
+        padding-right: 5pt;
+    }
+    [class*="col-"]
+    {
+        width: 95%;
+        display: block;
+        overflow: auto;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-left: 5pt;
+        padding-right: 5pt;
+    }
+    #brief_title
+    {
+        margin-left: 0%;
+        overflow: auto;
+    }
+    .col-1 img
+    {
+        width: 90%;
+        float: none;
+    }
+    .cross-4
+    {
+        padding-left:0pt;
+        padding-right:0pt;
+    }
+    .list
+    {
+        margin-left: 0%;
+        width:95%;
+        
+    }
 }
