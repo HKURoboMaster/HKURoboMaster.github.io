@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(206, 206, 206);
+    background-color:  rgb(228, 227, 227);
     font-family: Arial, Helvetica, sans-serif;
 }
 .text h3
@@ -81,4 +81,95 @@ body
 {
     color:blue;
     text-decoration: underline;
+}
+
+.container
+{
+    overflow: hidden;
+}
+
+.cross-2
+{
+    background-color: rgb(255, 255, 255);
+    border-color: darkcyan;
+    border-style: double;
+    margin-top: 7pt;
+    width: 70%;
+
+    float:left;
+}
+
+.cross-4
+{
+    margin-top:7pt;
+    
+    overflow: auto;
+}
+
+.list
+{
+    background-color: rgb(240,240,240);
+    border-color: darkcyan;
+    border-style: double;
+    margin-left:5pt;
+    padding-left:5pt;
+    padding-right:5pt;
+    margin-bottom: 2pt;
+}
+
+.list a
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+.list a:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+
+#resources h3
+{
+    text-align: center;
+    font-size:17pt;
+    font-weight: 600;
+    color: darkblue;
+}
+#resoures p
+{
+    text-align: center;
+    margin-top:3pt;
+    margin-bottom: 5pt;
+    font-size: 15pt;
+    color:gray;
+}
+
+#brief_title h3
+{
+    text-align: center;
+    font-size:17pt;
+    font-weight: 600;
+    color: darkblue;
+    margin-bottom: 2pt;
+}
+#brief_title p
+{
+    margin-top: 2pt;
+    margin-bottom: 1pt;
+    text-align: center;
+    color: gray;
+    font-size: 10pt;
+}
+#brief_title a
+{
+    text-decoration: none;
+}
+#brief_title h3:hover
+{
+    background:lightcyan;
+}
+#brief_title
+{
+    display:inline-block;
+    margin-left:20%;
 }
