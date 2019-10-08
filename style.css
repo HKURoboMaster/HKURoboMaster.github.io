@@ -12,6 +12,8 @@ body
 {
     font-weight: 400;
     color: rgb(97, 97, 97);
+    padding-left: 2pt;
+    margin-left:2pt;
 }
 #logo
 {
