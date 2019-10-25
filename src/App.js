@@ -9,12 +9,12 @@ const useStyles = makeStyles({
   app: {
     backgroundColor: theme.primaryColor,
     fontFamily: 'Arial, Helvetica, sans-serif',
-    textAlign: 'center',
-    height: '100vh'
+    textAlign: 'center'
   },
   gridContainer: {
     flexGrow: 1,
-    margin: '2vh 2vw'
+    margin: '1vh 1vw',
+    padding: '1vh 1vw'
   }
 });
 

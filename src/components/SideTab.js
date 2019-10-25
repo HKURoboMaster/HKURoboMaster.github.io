@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles, Typography, Paper, Link } from '@material-ui/core';
-import theme from '../theme';
 import siteConfig from '../siteConfig';
 
 const useStyles = makeStyles({
@@ -8,7 +7,7 @@ const useStyles = makeStyles({
     margin: 'auto 1vw'
   },
   paper: {
-    margin: '2vh auto',
+    marginBottom: '2vh',
     padding: '5px'
   }
 });
