@@ -24,7 +24,7 @@ const Header = () => {
       <img src={logo} className={classes.logo} alt="school logo" />
       <div className={classes.heading}>
         <Typography variant="h4">Herkules, the Robomaster Team</Typography>
-        <Typography variant="subtitle1">Fight to the Finals!</Typography>
+        <Typography variant="subtitle1">Fight in the Finals!</Typography>
       </div>
     </div>
   );
