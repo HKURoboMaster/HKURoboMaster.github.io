@@ -10,6 +10,7 @@ import {
   Box
 } from '@material-ui/core';
 import PropTypes from 'prop-types';
+import generateLinks from './generateLinks';
 
 import infantry from '../img/AI_infantry.png';
 import siteConfig from '../siteConfig';
@@ -82,21 +83,6 @@ const Main = () => {
       'aria-controls': `simple-tabpanel-${index}`
     };
   };
-
-  const generateLinks = links =>
-    links.map(link => (
-      <div key={link.name}>
-        <Link
-          href={link.url}
-          rel="noreferrer"
-          target="_blank"
-          color="inherit"
-          variant="body2"
-        >
-          {link.name}
-        </Link>
-      </div>
-    ));
 
   return (
     <Paper elevation={5} className={classes.container}>

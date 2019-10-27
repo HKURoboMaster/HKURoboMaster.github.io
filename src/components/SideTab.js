@@ -1,5 +1,6 @@
 import React from 'react';
-import { makeStyles, Typography, Paper, Link } from '@material-ui/core';
+import { makeStyles, Typography, Paper } from '@material-ui/core';
+import generateLinks from './generateLinks';
 import siteConfig from '../siteConfig';
 
 const useStyles = makeStyles({
@@ -15,21 +16,6 @@ const useStyles = makeStyles({
 const SideTab = () => {
   const classes = useStyles();
   const { eventLinks, accessLinks } = siteConfig;
-
-  const generateLinks = links =>
-    links.map(link => (
-      <div key={link.name}>
-        <Link
-          href={link.url}
-          rel="noreferrer"
-          target="_blank"
-          color="inherit"
-          variant="body2"
-        >
-          {link.name}
-        </Link>
-      </div>
-    ));
 
   return (
     <div className={classes.container}>
